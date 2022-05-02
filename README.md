@@ -49,7 +49,7 @@ export const SignUp = () => (
 
 ## Author
 
-- Tyler Shin [@Tylorshin](https://twitter.com/Tylorshin)
+- Tyler Shin [@tyler__shin](https://twitter.com/tyler__shin)
 
 ## Todo
 
