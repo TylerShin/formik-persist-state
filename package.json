@@ -2,6 +2,7 @@
   "name": "formik-persist-state",
   "description": "Persist and rehydrate a Formik form with confirmation",
   "private": true,
+  "license": "MIT",
   "version": "0.0.1",
   "author": "Tyler Shin <shincode@icloud.com>",
   "main": "./dist/formik-persist-state.umd.js",
@@ -12,6 +13,14 @@
       "require": "./dist/formik-persist-state.umd.js"
     }
   },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/TylerShin/formik-persist-state.git"
+  },
+  "bugs": {
+    "url": "https://github.com/TylerShin/formik-persist-state/issues"
+  },
+  "homepage": "https://github.com/TylerShin/formik-persist-state",
   "keywords": [
     "formik",
     "react",
@@ -20,7 +29,6 @@
     "forms",
     "localstorage"
   ],
-  "license": "MIT",
   "scripts": {
     "dev": "vite",
     "build": "tsc && vite build",
