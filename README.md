@@ -6,6 +6,10 @@ Persist and rehydrate a [Formik](https://github.com/jaredpalmer/formik) form.
 npm install formik-persist-state --save
 ```
 
+# Support
+
+Formik >= 2 required
+
 # Basic Usage
 
 Just import the `<Persist >` component and put it inside any Formik form. It renders `null`.
