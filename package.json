@@ -1,12 +1,12 @@
 {
   "name": "formik-persist-state",
   "description": "Persist and rehydrate a Formik form with confirmation",
-  "private": true,
   "license": "MIT",
-  "version": "0.0.1",
+  "version": "0.0.3",
   "author": "Tyler Shin <shincode@icloud.com>",
   "main": "./dist/formik-persist-state.umd.js",
   "module": "./dist/formik-persist-state.es.js",
+  "types": "./dist/index.d.ts",
   "exports": {
     ".": {
       "import": "./dist/formik-persist-state.es.js",
@@ -32,10 +32,11 @@
   "scripts": {
     "dev": "vite",
     "build": "tsc && vite build",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "prepublish": "npm run build"
   },
   "peerDependencies": {
-    "formik": "*",
+    "formik": ">=2",
     "react": ">=16",
     "react-dom": ">=16"
   },
@@ -53,7 +54,8 @@
     "react": "^18.0.0",
     "react-dom": "^18.0.0",
     "typescript": "^4.6.3",
-    "vite": "^2.9.5"
+    "vite": "^2.9.5",
+    "vite-plugin-dts": "^1.1.1"
   },
   "prettier": {
     "printWidth": 120
